@@ -3,3 +3,14 @@
     src: url("../fonts/Poppins-Regular.ttf") format("truetype");
     font-weight: 400;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1175px;
+    margin: 0 auto;
+}
