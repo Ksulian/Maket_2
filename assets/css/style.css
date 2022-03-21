@@ -196,3 +196,104 @@ a{
     background: url('../img/photos/photo_house.png') no-repeat center center / cover;
     height: 600px;
 }
+/* store */
+.store{
+    background: #FAFAFC;
+}
+.store_wrapper{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.store_text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+}
+.store_title{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #45525B;
+    margin-bottom: 13px;
+}
+.store_subtitle{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 22px;
+    color: #6F7278;
+    width: 574px;
+}
+.store_content{
+    margin-bottom: 26px;
+}
+.store_btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+.store_btn{
+    width: 379px;
+    height: 385px;
+    border: none;
+    background: white;
+}
+.store_btn:hover{
+    box-shadow: 0 0 5px #333333;
+}
+.store_btn_photo{
+    margin-top: -20px;
+}
+.store_btn_subtitle{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+}
+.store_btn_title{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #45525B;
+}
+.store_btn_icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.store_btn_icon{
+    display: flex;
+}
+.store_btn_icon_text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: #45525B;
+    margin-left: 8px;
+}
+.store_btn_icon2{
+    display: flex;
+    margin-right: 30px;
+}
+.store_a{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #45525B;
+}
+.store_arrow_btn{
+    text-align: center;
+}
