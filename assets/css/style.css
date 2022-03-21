@@ -14,3 +14,24 @@ a{
     width: 1175px;
     margin: 0 auto;
 }
+/* header */
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.header_nav_text{
+    margin-right: 30px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #444444;
+}
+/* main */
+.main{
+    height: 100px;
+    background: url('../img/photos/backgr.png') no-repeat center center / cover;
+}
