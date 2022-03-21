@@ -32,6 +32,28 @@ a{
 }
 /* main */
 .main{
-    height: 100px;
     background: url('../img/photos/backgr.png') no-repeat center center / cover;
+}
+.main_wrapper{
+    padding-top: 245px;
+    padding-bottom: 60px;
+}
+.main_logo{
+    display: block;
+    margin: 0 auto;
+}
+.main_title{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: center;
+    color: #45525B;
+    padding-bottom: 150px;
+}
+.main_arrow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
 }
