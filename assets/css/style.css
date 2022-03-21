@@ -191,3 +191,8 @@ a{
     line-height: 20px;
     color: #6F7278;
 }
+/* photo */
+.photo{
+    background: url('../img/photos/photo_house.png') no-repeat center center / cover;
+    height: 600px;
+}
