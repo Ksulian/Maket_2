@@ -57,3 +57,63 @@ a{
     margin-left: auto;
     margin-right: auto;   
 }
+/* goal */
+.goal_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.goal_text{
+    margin-right: 100px;
+}
+.goal_subtitle{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+}
+.goal_title{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    color: #45525B;
+    width: 490px;
+}
+.goal_info{
+    width: 561px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333333;
+}
+.goal_woman{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.goal_info_woman{
+    margin-left: 8px;
+}
+.goal_name{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+}
+.goal_profession{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+}
