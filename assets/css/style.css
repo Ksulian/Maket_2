@@ -297,3 +297,73 @@ a{
 .store_arrow_btn{
     text-align: center;
 }
+/* people */
+.people_wrapper{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.people_texts{
+    margin-right: 110px;
+}
+.people_text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+}
+.people_title{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #45525B;
+    margin-bottom: 13px;
+    width: 310px;
+}
+.people_subtitle{
+    width: 368px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #6F7278;
+    margin-bottom: 19px;
+}
+.people_a{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #45525B;
+}
+.people_card{
+    display: flex;
+    align-items: center;
+    width: 360px;
+    margin-bottom: 17px;
+    margin-right: 16px;
+}
+.people_info_woman{
+    margin-left: 8px;
+}
+.people_name{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+}
+.people_profession{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6F7278;
+}
