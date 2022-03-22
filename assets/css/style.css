@@ -7,6 +7,13 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins';
+}
 a{
     text-decoration: none;
 }
@@ -168,6 +175,7 @@ a{
     background: none;
     padding-left: 21px;
     margin-bottom: 20px;
+    border: 1px solid transparent;
 }
 .req_btn:hover{
     background: #FAFAFC;
@@ -366,4 +374,79 @@ a{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #6F7278;
+}
+/* newsroom */
+.newsroom{
+    background: #FAFAFC;
+}
+.newsroom_wrapper{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.newsroom_text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+    text-align: center;
+}
+.newsroom_title{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #45525B;
+    margin-bottom: 23px;
+}
+.newsroom_btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+.newsroom_btn{
+    border-radius: 10px 10px 0px 0px;
+    width: 376px;
+    height: 364px;
+    border: none;
+    background: white;
+    text-align: left;
+}
+.newsroom_btn:hover{
+    box-shadow: 0 0 5px #333333;
+}
+.newsroom_btn_content{
+    padding-left: 30px;
+}
+.newsroom_btn_subtitle{
+    margin-top: 28px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FF8A63;
+}
+.newsroom_btn_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #45525B;
+}
+.newsroom_data{
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6F7278;
+}
+.newsroom_btn_photo{
+    margin-top: -17px;
 }
