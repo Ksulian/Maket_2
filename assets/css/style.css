@@ -450,3 +450,57 @@ a{
 .newsroom_btn_photo{
     margin-top: -17px;
 }
+/* contact */
+.contact{
+    background: #45525B;
+}
+.contact_text{
+    padding-top: 100px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FAFAFC;
+}
+.contact_title{
+    margin-bottom: 13px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.contact_subtitle{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FAFAFC;
+    margin-bottom: 20px;
+}
+.contact_btns{
+    display: flex;
+    justify-content: center;
+}
+.contact_btn{
+    margin: 0 10px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+    width: 102px;
+    height: 44px;
+    border: none;
+    margin-bottom: 100px
+}
+.contact_btn:hover{
+    box-shadow: 0 0 5px #FAFAFC;
+}
